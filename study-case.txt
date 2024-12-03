@@ -1,0 +1,24 @@
+# Aplikasi Manajemen Produk dan Kategori
+
+# Fitur : 
+CRUD Produk
+CRUD Kategori
+
+# Database : 
+    Tabel kategori: 
+    id 
+    nama_kategori (string)
+
+    Tabel produk: 
+    id
+    nama_produk (string)
+    deskripsi (text)
+    gambar (string)
+    kategori_id (foreign key dari tabel kategori)
+
+# Step by step : 
+    1. Buat model dan migration dari tabel kategori dan produk
+    2. Jalankan migration untuk membuat tabel di database
+    3. Buat controller kategori dan produk
+    4. Tambahkan routing di routes/web.php
+    5. buatkan view dari kategori dan produk
