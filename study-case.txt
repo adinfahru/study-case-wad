@@ -3,6 +3,7 @@
 # Fitur : 
 CRUD Produk
 CRUD Kategori
+Menampilkan data di Dashboard
 
 # Database : 
     Tabel kategori: 
@@ -19,6 +20,6 @@ CRUD Kategori
 # Step by step : 
     1. Buat model dan migration dari tabel kategori dan produk
     2. Jalankan migration untuk membuat tabel di database
-    3. Buat controller kategori dan produk
+    3. Buat controller kategori, produk, dan dashboard
     4. Tambahkan routing di routes/web.php
     5. buatkan view dari kategori dan produk
